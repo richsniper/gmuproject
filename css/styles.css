@@ -4,24 +4,27 @@ body{
 html,body {
     height:100%;
 }
+/* We should probably rename a bunch of these classes */
 .head{
 	background-color: blue;
 }
 .main1{
 	padding: 0px;
-	height: 516px;
+	height: 516px; /* This will eventually have to be calculated with Jquery. If you dont specify 516, its 1 em short of lining up with the bottom of main3*/
 }
 .main2{
 	background-color: green;
 	min-height: 250px;
+	padding: 0px;
 }
 .main3{
 	background-color: orange;
 	min-height: 250px;
-	margin-top: 1em;
+	margin-top: 1em; /*space the bottom square away from the top sqaure*/
+	padding: 0px;
 }
 .container{
-	margin-top: 1em;
+	margin-top: 1em; /*Space the whole row down from the nav bar*/
 }
 .main_content{
 	background-color: green;
