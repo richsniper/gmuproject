@@ -1,0 +1,62 @@
+body{
+	background-color: #eeeeee;
+}
+html,body {
+    height:100%;
+}
+.head{
+	background-color: blue;
+}
+.main1{
+	padding: 0px;
+	height: 516px;
+}
+.main2{
+	background-color: green;
+	min-height: 250px;
+}
+.main3{
+	background-color: orange;
+	min-height: 250px;
+	margin-top: 1em;
+}
+.container{
+	margin-top: 1em;
+}
+.main_content{
+	background-color: green;
+	margin-right: 1em;
+	height: 100%;
+}
+.headwrap{
+	background-color: blue;
+}
+.logo{
+	padding: 0;
+}
+
+.nav-wrap{
+	padding-right: 0px;
+	height: 56px;
+}
+
+.top-bar{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: none;
+}
+/** Removes black background on menu bar **/
+.top-bar-section ul {
+    background: none;
+}
+/** Removes black background on menu item **/
+.top-bar-section li a:not(.button) {
+    background: none;
+    font-size: 18px;
+}
+.top-bar-section li a:not(.button):hover {
+   background:red;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+}
